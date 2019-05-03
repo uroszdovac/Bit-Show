@@ -1,0 +1,149 @@
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    header{
+        background-color: gray;
+        padding: 10px;
+        border-radius: 6px;
+    }
+
+    nav{
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;
+    }
+
+    .goldLetter{
+        color: goldenrod;
+        font-size: 1.4em;
+    }
+
+    #searchInput{
+        width: 180px;
+        border-radius: 6px;
+        /* outline: none; */
+        border: none;
+    }
+
+    #searchInput:focus{
+        border: 2px solid rgb(194, 147, 28);
+    }
+    
+
+    section{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    section h1{
+        text-align: center;
+        color: goldenrod;
+        margin-bottom: 10%;
+    }
+
+    #contentList{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .oneShow{
+        width: 27%;
+        text-align: center;
+        box-shadow: 7px 7px 4px -1px rgba(0,0,0,0.75);
+        margin-bottom: 4%;
+        /* padding-top: 30px; */
+        border-radius: 6px;
+        border: 0.2px solid gray;
+    }
+
+    .oneShow img{
+        border-radius: 6px;
+        width: 100%;
+    }
+
+    .oneShow:hover{
+        transform: scale(1.1)
+    }
+
+    .oneShow a{
+        text-decoration: none;
+        color: rgb(0, 102, 255);
+        font-size: 1.4em;
+    }
+
+    footer{
+        background-color: gray;
+        text-align: center;
+        padding: 10px;
+        color: white;
+        margin-top: 40px;    
+        border-radius: 6px;    
+    }
+
+    #singleShowAppend img{
+        width: 50%;
+        height: 600px;
+    }
+
+    #singleShowAppend h1{
+        text-align: center;
+    }
+
+    #seasonsInfoDiv h3{
+        text-align: center;
+    }
+
+    #imgAndSeasons{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #imgAndSeasons div{
+        margin-left: 20px;
+    }
+
+    #searchList{
+        position: absolute;
+        top: 6.3%;
+        right: 15.6%;
+        background-color: #fff;
+        width: 184px;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #searchList li{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 12px;
+    }
+
+    #searchList a{
+        text-decoration: none;
+        color: gray;
+        padding: 4px;
+        
+    }
+
+    #searchList a:hover{
+        color: black;
+    }
+    
+
+    
+
+
